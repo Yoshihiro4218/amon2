@@ -1,0 +1,5 @@
+/data/www/local/bin/cpanel_json_xs
+/data/www/local/lib/perl5/x86_64-linux/Cpanel/JSON/XS.pm
+/data/www/local/lib/perl5/x86_64-linux/Cpanel/JSON/XS/Boolean.pm
+/data/www/local/lib/perl5/x86_64-linux/Cpanel/JSON/XS/Type.pm
+/data/www/local/lib/perl5/x86_64-linux/auto/Cpanel/JSON/XS/XS.so

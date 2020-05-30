@@ -1,0 +1,22 @@
+version: "2"
+
+services:
+  data:
+    build: ./data
+    volumes:
+      - ../:/data
+
+  perlcli:
+    build: ./perlcli
+    volumes_from:
+      - data
+
+  plack:
+    image: amon_perlcli
+    volumes_from:
+      - data
+    ports:
+      - "3000:3000"
+    command: ["carton","exec","--","plackup","-p","3000","-r","myapp/app.psgi"]
+    depends_on:
+      - perlcli

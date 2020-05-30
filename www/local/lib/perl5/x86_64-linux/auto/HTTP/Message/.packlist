@@ -1,0 +1,10 @@
+/data/www/local/lib/perl5/HTTP/Config.pm
+/data/www/local/lib/perl5/HTTP/Headers.pm
+/data/www/local/lib/perl5/HTTP/Headers/Auth.pm
+/data/www/local/lib/perl5/HTTP/Headers/ETag.pm
+/data/www/local/lib/perl5/HTTP/Headers/Util.pm
+/data/www/local/lib/perl5/HTTP/Message.pm
+/data/www/local/lib/perl5/HTTP/Request.pm
+/data/www/local/lib/perl5/HTTP/Request/Common.pm
+/data/www/local/lib/perl5/HTTP/Response.pm
+/data/www/local/lib/perl5/HTTP/Status.pm
